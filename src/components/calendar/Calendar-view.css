@@ -1,0 +1,36 @@
+.day-box{
+    width: calc( 100%/7);
+    /* background-color: aqua; */
+    padding: 5px 0 5px 0;
+    border: 1px solid lightgray;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+button:active, button:focus {
+    outline:none;
+    border: 0;
+}
+.today {
+    background-color: pink;
+}
+.marked {
+    opacity: 0.6;
+}
+.calendar-month{
+    padding: 5px 0 5px 0;
+}
+.faded{
+    opacity: 0.3;
+    color: lightgray;
+}
+.red{
+    background: purple !important;
+}
+.yellow {
+    background: yellow !important;
+}
+.green {
+    background: pink !important;
+}

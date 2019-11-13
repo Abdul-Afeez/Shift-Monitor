@@ -1,0 +1,39 @@
+.full {
+    background-color: lightgreen;
+    height: 100vh;
+    width: 100vw;
+    animation: grow 8s ease-in-out infinite;
+}
+hgroup{
+    text-align: center;
+    color: #fff;
+}
+.spin {
+    animation: rot 0.6s ease-in-out infinite;
+}
+
+@keyframes grow {
+    0% {
+        background-color: bisque;
+    }
+    40%{
+        background-color: navy;
+    }
+    60%{
+        background-color: lightgrey;
+    }
+    80%{
+        background-color: lightgreen;
+    }    
+    100% {
+        background-color: pink;
+    }
+}
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
